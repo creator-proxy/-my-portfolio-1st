@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACHIEVEMENT</title>
+    <link rel="stylesheet" href="system.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <video class="video-bg" autoplay muted loop>
+        <source src="苍穹回响.mp4" type="Video/mp4">
+    </video>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="" class="navbar-logo">ACHIEVEMENT</a>
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu">
+                <button id="theme-btn">🌙 Dark Mode</button>
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="achievements.html">ACHIEVEMENT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <script src="java.js"></script>
+
+    <div class="container-ace">
+
+        <div class="tarkov">
+            <div class="tarkov-video">
+                <video class="video-tarkov" autoplay muted loop>
+                    <source src="FondFallout.mp4" type="Video/mp4">
+                </video>
+            </div>
+            <div class="tarkov-box"><img src="Screenshot 2026-11-06 190807.png" alt="PICTURE"></div>
+        </div>
+
+        <div class="zomboid">
+            <div class="zomboid-video">
+                <video class="video-zomboid" autoplay muted loop>
+                    <source src="FondFallout.mp4" type="Video/mp4">
+                </video>
+            </div>
+            <div class="zomboid-box"><img src="Screenshot 2026-11-06 185818.png" alt="PICTURE"></div>
+        </div>
+
+        <div class="fallout">
+            <div class="fallout-video">
+                <video class="video-fallout" autoplay muted loop>
+                    <source src="FondFallout.mp4" type="Video/mp4">
+                </video>
+            </div>
+            <div class="fallout-box"><img src="Screenshot 2026-11-05 183304.png" alt="PICTURE"></div>
+        </div>
+
+        <div class="ab">
+            <div class="ab-video">
+                <video class="video-ab" autoplay muted loop>
+                    <source src="FondFallout.mp4" type="Video/mp4">
+                </video>
+            </div>
+            <div class="ab-box"><img src="image.png" alt="PICTURE"></div>
+        </div>
+
+        <div class="real-life">
+            <div class="real-life-video">
+                <video class="video-real-life" autoplay muted loop>
+                    <source src="FondFallout.mp4" type="Video/mp4">
+                </video>
+            </div>
+            <div class="real-life-box"><img src="Screenshot 2026-11-06 191647.png" alt="PICTURE"></div>
+        </div>
+
+    </div>
+    <footer class="footer-long">
+        <h1 class="h1-about">ACHIEVEMENT</h1><br><h4 class="h4-about">all my achievements only in game and some are in real life</h4><br>
+        <h4 class="h4-about">my academic achievements are in ABOUT not here</h4><br>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-discord"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </footer>
+    <footer>
+        <h3>&copy; ALL RIGHT RESERVED</h3>
+    </footer>
+    <script>
+        const btn = document.getElementById("theme-btn");
+
+        btn.addEventListener("click", () => {
+            document.body.classList.toggle("light-mode");
+        });
+    </script>
+</body>
+</html>

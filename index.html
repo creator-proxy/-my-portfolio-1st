@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="system.css">
+
+    <video class="video-bg" autoplay muted loop>
+        <source src="苍穹回响.mp4" type="Video/mp4">
+    </video>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="" class="navbar-logo">PORTFOLIO</a>
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu">
+                <button id="theme-btn">🌙 Dark Mode</button>
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="achievements.html">ACHIEVEMENT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="java.js"></script>
+
+    <div class="container-box">
+        <div class="video-box">
+            <video class="video-bg" autoplay muted loop>
+                <source src="苍穹回响.mp4" type="Video/mp4">
+            </video>
+        </div>
+        <div class="profile-box">
+            <img src="Untitled design (3).png" alt="Profile">
+        </div>
+        <div class="box1"></div>
+        <div class="box2">
+            <h1 class="h1info">WELCOME TO MY PORTFOLIO</h1>
+            <h4 class="h1info"> THIS PROJECT BY JOSE RUSTY B MENDOZA</h4>
+        </div>
+    </div>
+
+    <footer>
+        <h3>&copy; ALL RIGHT RESERVED</h3>
+    </footer>
+    <script>
+        const btn = document.getElementById("theme-btn");
+
+        btn.addEventListener("click", () => {
+            document.body.classList.toggle("light-mode");
+        });
+    </script>
+</body>
+</html>
